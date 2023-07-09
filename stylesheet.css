@@ -226,6 +226,15 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.updateDate{
+  font-size: 11px;
+  font-family: Verdana, 'Roboto','Lato', Verdana, Helvetica, sans-serif;              /* can try 'Jost'*/
+  text-align: right;
+  margin-bottom:0px;
+  color:#666;
+  font-weight: bold;
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
