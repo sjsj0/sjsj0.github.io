@@ -144,6 +144,7 @@ a:hover {
   text-decoration: underline;
 }
 
+
 body,
 td,
 th,
@@ -172,8 +173,10 @@ p{
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto', 'Lato', Verdana, Helvetica, sans-serif;
+  /* font-size: 14px; */
+  font-size: 16px;
+  line-height: 24px;
 }
 
 heading {
@@ -188,8 +191,11 @@ papertitle {
 }
 
 name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family:Verdana, 'Roboto', 'Lato', Verdana, Helvetica, sans-serif;
+  /* font-size: 32px; */
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -2px;
 }
 
 .one {
