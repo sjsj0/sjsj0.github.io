@@ -73,21 +73,21 @@
 
 /* new entry */
 
-@font-face {
+/* @font-face {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 400;
   src: local('Futura PT'), url('https://fonts.cdnfonts.com/s/72205/FuturaCyrillicBook.woff') format('woff');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 300;
   src: local('Futura PT'), url('https://fonts.cdnfonts.com/s/72205/FuturaCyrillicLight.woff') format('woff');
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 450;
@@ -121,23 +121,27 @@
   font-weight: 800;
   src: local('Futura PT'), url('https://fonts.cdnfonts.com/s/72205/FuturaCyrillicExtraBold.woff') format('woff');
 }
-
-
+*/
 
 
 /* ************** */
 
 a {
-  font-family: 'futura-pt', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #1772d0;
+  font-family: 'Roboto', 'Lato', Verdana, Helvetica, sans-serif;
+  /* font-size: 14px; */
+  /* color: #1772d0; */
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #b509ac;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  /* color: #f09228; */
+  /* text-decoration: none; */
+  text-decoration: underline;
 }
 
 body,
@@ -145,11 +149,14 @@ td,
 th,
 tr,
 p{
-  font-family: 'futura-pt', 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: 'Roboto', 'Lato', Verdana, Helvetica, sans-serif;
+  /* font-size: 14px; */
+
+  font-size: 16px;
+  line-height: 24px;
   color: #474747;
   /* color:#333333; */
-  /* line-height: 18px; */
+
 }
 
 .bgclass{
