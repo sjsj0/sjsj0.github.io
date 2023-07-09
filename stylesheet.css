@@ -243,3 +243,21 @@ table {
   background-color: white;
   padding:15px;
 }
+
+
+.column1 {
+  float: left;
+  width: 15%;
+}
+
+.column2 {
+  float: left;
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
